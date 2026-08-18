@@ -2,7 +2,7 @@
 
 This is a GitHub Pages-ready Jekyll site based on the [Klise theme](https://github.com/piharpi/jekyll-klise).
 
-Live site: https://b9932028-ui.github.io/chy.tw/
+Live site: https://chy.tw/
 
 ## Deploy on GitHub Pages
 

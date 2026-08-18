@@ -21,8 +21,8 @@ author:
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "https://b9932028-ui.github.io" #
-baseurl: "" # GitHub Actions overrides this automatically for project pages.
+url: "https://chy.tw" #
+baseurl: ""
 permalink: /:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
