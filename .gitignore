@@ -1,0 +1,11 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+_drafts
+klise-*.gem
+Gemfile.lock
+.bundle/
+vendor/
+vendor/bundle/
+_template_jekyll_klise/
