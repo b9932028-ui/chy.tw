@@ -25,6 +25,16 @@ The workflow builds the site with Bundler, so the template can use Jekyll plugin
 
 ## Local Preview
 
+With Docker:
+
+```powershell
+.\dev\serve.ps1
+```
+
+Then open `http://localhost:4000`.
+
+With local Ruby:
+
 ```bash
 bundle install
 bundle exec jekyll serve
