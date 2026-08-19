@@ -10,14 +10,14 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Your Name # author name
+  name: CHY.TW # author name
   bio: >- # tell to the world
-    Welcome to my personal site.
+    本網站除了程式碼之外的文字不含AI產物，100%手寫。
   username: your_username # general username
-  github: your_github_username # github username
+  github: b9932028-ui # github username
   twitter: # twitter username
   facebook: # facebook username
-  email: your-email@email.com # email adress
+  email: b9932028@gmail.com # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
