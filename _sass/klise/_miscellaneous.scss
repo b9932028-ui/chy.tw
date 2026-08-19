@@ -39,3 +39,47 @@
     position: absolute;
   }
 }
+
+.social-links {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link {
+  display: inline-flex;
+  width: 46px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  color: $black;
+  opacity: 0.75;
+  text-decoration: none;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+    transform: translateY(-1px);
+  }
+
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  path {
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+  }
+
+  &[aria-label="GitHub"] path,
+  &[aria-label="LinkedIn"] path {
+    fill: currentColor;
+    stroke: none;
+  }
+}
