@@ -1,3 +1,15 @@
+chy.tw Site Content and Modifications
+-------------------------------------
+
+Unless otherwise noted, custom site content and modifications for chy.tw are
+copyright (c) 2026 chy.tw.
+
+This repository is a personal website based on the Klise Jekyll theme. The
+original Klise theme is licensed under the MIT License by Mahendrata Harpi, as
+preserved below.
+
+========================================================================
+
 MIT License
 
 Copyright (c) 2019 Mahendrata Harpi
@@ -19,3 +31,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+This MIT license notice applies to the original Klise theme. It does not imply
+that all site content, posts, images, or personal materials in this repository
+are authored by or owned by Mahendrata Harpi.
