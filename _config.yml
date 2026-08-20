@@ -1,8 +1,8 @@
 # Site settings
 title: chy.tw # site title
 description: >- # site description
-  A personal site and blog built with the Klise Jekyll theme.
-lang: en-US # default lang
+  本網站除了程式碼之外的文字不含AI產物，100%手寫。
+lang: zh-TW # default lang
 timezone: Asia/Taipei # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/b9932028-ui/chy.tw # site repo [optional]
@@ -13,10 +13,7 @@ author:
   name: CHY.TW # author name
   bio: >- # tell to the world
     本網站除了程式碼之外的文字不含AI產物，100%手寫。
-  username: your_username # general username
   github: b9932028-ui # github username
-  twitter: # twitter username
-  facebook: # facebook username
   email: b9932028@gmail.com # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
@@ -25,7 +22,6 @@ url: "https://chy.tw" #
 baseurl: ""
 permalink: /:title/
 google_analytics: # leave it blank if not wish
-fb_appid:
 
 # Collection setting
 collections:
@@ -61,24 +57,17 @@ jekyll_compose:
 number_of_posts: 5
 
 # Build settings
-# theme: klise
 sass:
   style: compressed
 
-include:
-  - _redirects
-  - .htaccess
-
 exclude:
-  - CNAME
+  - AGENTS.md
+  - dev
   - Gemfile
   - Gemfile.lock
+  - HOW_TO.md
   - LICENSE
-  - CHANGELOG.md
   - README.md
-  - node_modules
-  - klise-*.gem
-  - klise.gemspec
 
 # Plugins
 plugins:

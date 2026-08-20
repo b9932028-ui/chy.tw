@@ -54,23 +54,22 @@ layout: compress
             <span itemprop="author" itemscope itemtype="https://schema.org/Person">
               <span itemprop="name">{{ site.author.name }}</span>
             </span>
+            {% if page.modified %}
             <time hidden datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
-              {{ page.date | date: "%b %d, %Y" }}
+              {{ page.modified | date: "%b %d, %Y" }}
             </time>
-            <span hidden itemprop="publisher" itemtype="Person">{{ site.author.name }}</span>
-            <span hidden itemprop="image">{{ page.image }}</span>
-            <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
+            {% endif %}
+            <span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Person">
+              <span itemprop="name">{{ site.author.name }}</span>
+            </span>
+            <link itemprop="image" href="{{ page.image | default: site.image | absolute_url }}" />
+            <link itemprop="mainEntityOfPage" href="{{ page.url | absolute_url }}" />
           </div>
           {% endif %}
         </header>
 
         <div class="page-content" itemprop="articleBody">
           {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
-          {% if page.tweet %}
-          <p>Comments this article on 
-            <a href="https://twitter.com/{{site.twitter}}/status/{{page.tweet}}">Twitter</a>.
-          </p>
-          {% endif %}
         </div>
       </article>
     
